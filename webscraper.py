@@ -5,9 +5,7 @@ from pathlib import Path
 from selenium.webdriver import Chrome
 from selenium.webdriver.common.keys import Keys
 
-COURSES_LIST_FILE_PATH = 'Courses.csv'
-COURSE_DIR_PATH = './courses'
-FAILED_ATTEMPTS_DIR_PATH = './failed_attempts'
+from constants import COURSE_DIR_PATH, COURSES_LIST_FILE_PATH
 
 SITE_URL = "https://asc.iitb.ac.in"
 
